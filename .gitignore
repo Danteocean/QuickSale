@@ -1,0 +1,62 @@
+# === NODE / ANGULAR ===
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compilación de Angular
+/dist/
+/tmp/
+/out-tsc/
+.soruce-maps/
+
+# Archivos de configuración local de herramientas
+.angular/
+.cache/
+.editorconfig
+.vscode/
+
+
+# === .NET 4.7 / VISUAL STUDIO ===
+# Archivos de usuario y caché de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Carpetas de salida (Compilación)
+[Bb]in/
+[Obj]/
+[Rr]elease/
+[Dd]ebug/
+
+# Archivos de base de datos local (SQL Express / MDF)
+*.mdf
+*.ldf
+*.sdf
+
+# Paquetes de NuGet (Evitar subir la carpeta packages)
+**/packages/*
+# Excepto si quieres permitir el ejecutable de nuget
+!**/packages/repositories.config
+
+# Archivos temporales de ASP.NET
+obj/
+PrecompiledWeb/
+
+# Archivos de publicación local
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# Archivos Log
+*.log
+
+
+# === SISTEMA OPERATIVO ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
