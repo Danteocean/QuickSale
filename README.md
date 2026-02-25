@@ -15,6 +15,8 @@ El ecosistema combina:
 La solución está organizada por capas para facilitar mantenibilidad y escalabilidad.
 
 📁 Estructura General
+
+```
 QuickSale/
 ├── Front/
 │   └── quick-sale-front/       # Proyecto Angular 6 (Frontend)
@@ -29,9 +31,11 @@ QuickSale/
 │
 └── DB/
     └── script.sql        # Script completo (DB, Tablas, Datos y SP)
-
+```
 
 🧱 Arquitectura Interna del Backend
+
+```
 QuickSale/
 ├─ Application/
 │  ├─ Controllers/          # SalesController, CatalogsController
@@ -45,7 +49,7 @@ QuickSale/
    ├─ Context/              # SalesDbContext
    ├─ Entities/             # Customer, Product
    └─ Repositories/         # SaleRepository
-
+```
 
 Arquitectura basada en separación por capas:
 Application → Exposición HTTP
